@@ -3,7 +3,7 @@ import React from "react";
 function Navbar() {
   return (
     <div>
-      <nav class="bg-white text-black fixed w-full z-20 top-0 start-0 border-b border-gray-200  ">
+      <nav class="bg-white text-black fixed w-full     z-20 top-0 start-0    ">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a
             href="https://flowbite.com/"
@@ -21,7 +21,7 @@ function Navbar() {
               </g>
             </svg>
           </a>
-          <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse gap-3">
+          <div class="flex md:order-2 space-x-2 md:space-x-0 rtl:space-x-reverse gap-5">
 
             {/* 1st logo */}
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" id="Search--Streamline-Rounded-Material" height="24" width="24">
