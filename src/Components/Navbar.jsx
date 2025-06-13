@@ -1,6 +1,7 @@
 import React from "react";
 
 function Navbar() {
+  
   return (
     <div>
       <nav class="bg-white text-black fixed w-full     z-20 top-0 start-0    ">

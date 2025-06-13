@@ -5,7 +5,7 @@ import Newin from './Components/Newin'
 
 function App() {
   return (
-    <div className='bg-gray-200 font-[sans-serif]' >
+    <div className='bg-gray-200 nav font-[sans-serif]' >
      <Navbar/>
      <Hero/>
      <Newin/>
