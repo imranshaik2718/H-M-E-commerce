@@ -1,17 +1,21 @@
-import React from 'react'
-import Navbar from './Components/Navbar'
-import Hero from './Components/Hero'
-import Newin from './Components/Newin'
+import React from 'react';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from 'react-router-dom';
+import Homepage from './Home/Homepage';
+
 
 function App() {
   return (
-    <div className='bg-gray-200 nav font-[sans-serif]' >
-     <Navbar/>
-     <Hero/>
-     <Newin/>
-     </div>
-   
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;
